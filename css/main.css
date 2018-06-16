@@ -1,0 +1,321 @@
+/*
+###############################################################
+# Created by Ben Cuan, Eric Qian, Akash Basu, Vikram Peddinti #
+#                      LaunchHacks Site                       #
+###############################################################
+*/
+
+/* TEMP */
+.under-construction {
+    text-align: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+}
+
+.under-construction img {
+    max-width: 90%;
+}
+
+/* *****************
+ * * GLOBAL STYLES *
+ * ***************** */
+ * {
+    
+    font-family: 'Comfortaa', cursive;
+
+}
+  a {
+    color: #90f6fc;
+    transition: 0.5s;
+  }
+  
+  a:hover, a:active, a:focus {
+    color: #9ef5ff;
+    outline: none;
+    text-decoration: none;
+  }
+  
+  p {
+    padding: 0;
+    margin: 0 0 30px 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans";
+    font-weight: 400;
+    margin: 0 0 20px 0;
+    padding: 0;
+  }
+
+section {
+    overflow-x: hidden;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
+
+.center-align {
+    align-content: center;
+}
+
+h2 {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 200;
+    font-size: 70px !important;
+    letter-spacing: 1px;
+}
+
+.secondary {
+    background: rgb(223, 240, 253);
+}
+
+.right-align {
+    float: right;
+    text-align: right;
+}
+
+#schedule {
+    overflow-x: scroll;
+}
+
+@media only screen and (min-width: 600px) {
+    #representatives {
+        padding-bottom: 8vh;
+    }
+}
+
+/* **********
+ * * BANNER *
+ * ********** */
+
+ #banner svg {
+     height: 120%;
+ }
+
+ #banner {
+    opacity: 0;
+    animation: 1s ease-in-out 0s 1 banner-icon forwards;
+    width: 100%;
+    min-height: 100vh;
+    min-width: 100vw;
+    position: relative;
+    top: 0;
+    left: 0;
+
+    /* Background image - tinting adopted from https://css-tricks.com/tinted-images-multiple-backgrounds/*/
+    background:
+        linear-gradient(
+      rgba(255, 255, 255, 0.25), 
+      rgba(255, 255, 255, 0.25)
+    ),
+
+        url('../img/banner-background.jpg');
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#bannerLogo {
+    display:block;
+    cursor: default;
+    height: 55vh;
+    width: 100vw;
+    text-align: center;
+}
+
+
+#bannerInfo {
+    text-align: center;
+    transform: translateY(-8vh);
+    font-size: 8vh;
+    min-height: 20vh;
+    z-index: 0;
+    opacity: 0;
+    animation: 1s ease-in-out 2s 1 banner-icon forwards;
+}
+
+#bannerInfo h3 {
+    font-size: 8vh;
+}
+
+#bannerButton {
+    opacity: 0;
+    animation: 1s ease-in-out 2s 1 banner-icon forwards;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#bannerButton a {
+    color: rgb(255, 255, 255) !important;
+    width: auto;
+}
+
+#bannerButton:hover, #apply a:hover {
+    transform: scale(1.25);
+}
+
+#apply a {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.banner-text-primary {
+    color: rgb(255, 255, 255);
+}
+
+.banner-text-secondary {
+    color: rgb(255, 255, 255);
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+} 
+
+@keyframes banner-icon {
+    to {opacity: 1}
+}
+@-webkit-keyframes banner-icon {
+    to {opacity: 1}
+}
+@-moz-keyframes banner-icon {
+    to {opacity: 1}
+}
+
+/* *************
+ * * SELECTION *
+ * ************* */
+
+::selection {
+    background: transparent;
+    font-style: oblique;
+    text-shadow: #bfceff 1px 1px 0;
+    color: rgb(1, 124, 212);
+}
+ 
+::-moz-selection {
+   background: transparent;
+    font-style: oblique;
+    text-shadow: #bfceff 1px 1px 0;
+    color: rgb(255, 255, 255);
+}
+
+/* *******
+ * * FAQ *
+ * ******* */
+.card-header {
+    background-color: white;
+    border-bottom: none;
+    font-size: 2.5vh;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.card {
+    border: 0.5vh;
+}
+
+.card-header:hover {
+    font-size: 2.7vh;
+    color: rgb(255, 255, 255);
+}
+
+/* ************
+ * * SPONSORS *
+ * ************ */
+.sponsor-img {
+    margin: 2vh;
+    height: auto;
+    width: auto;
+    align-self: center;
+    max-width: 15vw;
+    max-height: 15vw;
+}
+
+/* ********
+ * * TEAM *
+ * ******** */
+.team-img {
+    margin: 2vh;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    max-width: 10vw;
+    max-height: 10vw;
+    align-self: center;
+}
+
+header.head {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    background: #ffffff;
+}
+
+header.head .header-content {
+    max-width: 500px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+header.head .device-container{
+    max-width: 325px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.team-icon {
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.team-icon:hover {
+    transform: scale(1.1);
+}
+
+.team-wrapper p, .team-wrapper h3 {  
+    margin-bottom: 0.3rem;
+}
+
+/* *******
+ * * NAV *
+ * ******* */
+ nav {
+    /* Box-shadow adopted from Materialize */
+      -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+ }
+ nav img {
+     max-height: 5vh;
+     margin-right: 1.5vw;
+ }
