@@ -1,9 +1,4 @@
-/*
-###############################################################
-# Created by Ben Cuan, Eric Qian, Akash Basu, Vikram Peddinti #
-#                      LaunchHacks Site                       #
-###############################################################
-*/
+
 
 /* TEMP */
 .under-construction {
@@ -91,6 +86,14 @@ h2 {
         padding-bottom: 8vh;
     }
 }
+/* **********
+ * * BUTTON *
+ * ********** */
+
+
+
+
+
 
 /* **********
  * * BANNER *
@@ -117,7 +120,7 @@ h2 {
       rgba(255, 255, 255, 0.25)
     ),
 
-        url('../img/banner-background.jpg');
+        url('../img/bg4.jpg');
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
