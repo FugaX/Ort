@@ -199,7 +199,19 @@ p {
   margin: 10px;
   color: #fff;
 }
-
+.btn-learncard {
+  background: #000000;
+  border: 2px solid #000000;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  color: #fff;
+}
 .btn-get-started:hover {
   background: none;
   color: #000000;
@@ -210,6 +222,12 @@ p {
   background: #ffffff;
   border: 2px solid #ffffff;
   color: #ffffff;
+  color: #000;
+
+}
+.btn-learncard:hover {
+  background: #ffffff;
+  border: 2px solid #000000;
   color: #000;
 
 }
