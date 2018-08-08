@@ -9,6 +9,11 @@ body {
     padding-top: 56px;
   }
 }
+img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
 .carousel-item {
   height: 65vh;
   min-height: 300px;
