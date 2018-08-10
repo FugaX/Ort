@@ -15,8 +15,7 @@ img {
   height: auto ;
 }
 .carousel-item {
-  height: 65vh;
-  min-height: 300px;
+  
   background:url('../img/banner.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
