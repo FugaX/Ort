@@ -1,0 +1,97 @@
+[debug] [2018-08-06T04:26:46.165Z] ----------------------------------------------------------------------
+[debug] [2018-08-06T04:26:46.168Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ashish Basu\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2018-08-06T04:26:46.168Z] CLI Version:   4.0.2
+[debug] [2018-08-06T04:26:46.168Z] Platform:      win32
+[debug] [2018-08-06T04:26:46.168Z] Node Version:  v8.11.1
+[debug] [2018-08-06T04:26:46.169Z] Time:          Sun Aug 05 2018 21:26:46 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-08-06T04:26:46.169Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-06T04:26:46.180Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-08-06T04:26:46.181Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Ashish Basu\Documents\GitHub\kek\Glaciate
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2018-08-06T04:26:50.112Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-08-06T04:26:50.113Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/o8BoXNqXh3_3PUUl5QD5LJphqzNjx9Hqr6Vyy-jaRY8',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Aug 05 2018 21:26:50 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-08-06T04:26:50.541Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-06T04:26:50.645Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+  
+ Sun Aug 05 2018 21:26:50 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-08-06T04:26:51.439Z] <<< HTTP RESPONSE 200
+[info] i  .firebaserc already has a default project, skipping
+[info] 
+=== Storage Setup
+[info] 
+[info] Firebase Storage Security Rules allow you to define how and when to allow
+[info] uploads and downloads. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2018-08-06T04:27:40.540Z] ----------------------------------------------------------------------
+[debug] [2018-08-06T04:27:40.543Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ashish Basu\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2018-08-06T04:27:40.543Z] CLI Version:   4.0.2
+[debug] [2018-08-06T04:27:40.543Z] Platform:      win32
+[debug] [2018-08-06T04:27:40.543Z] Node Version:  v8.11.1
+[debug] [2018-08-06T04:27:40.544Z] Time:          Sun Aug 05 2018 21:27:40 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-08-06T04:27:40.544Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-06T04:27:40.565Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-08-06T04:27:40.566Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Ashish Basu\Documents\GitHub\kek\Glaciate
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2018-08-06T04:27:44.500Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+  
+ Sun Aug 05 2018 21:27:44 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-08-06T04:27:45.235Z] <<< HTTP RESPONSE 200
+[info] i  .firebaserc already has a default project, skipping
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 

@@ -15,7 +15,11 @@ body {
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
+* {
+  
+  font-family: 'Open Sans', sans-serif;
 
+}
 #wrapper.toggled {
   padding-left: 250px;
 }
@@ -119,4 +123,69 @@ body {
     position: relative;
     margin-right: 0;
   }
+}
+.btn-get-started {
+  background: #ffffff;
+  border: 2px solid #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  color: #000;
+}
+
+.btn-get-started:hover {
+  background: none;
+  color: #000000;
+  color: #fff;
+
+}
+.btn-learn {
+  background: #000000;
+  border: 2px solid #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  color: #fff;
+}
+.btn-learncard {
+  background: #000000;
+  border: 2px solid #000000;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  color: #fff;
+}
+.btn-get-started:hover {
+  background: none;
+  color: #000000;
+  color: #fff;
+
+}
+.btn-learn:hover {
+  background: #ffffff;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  color: #000;
+
+}
+.btn-learncard:hover {
+  background: #ffffff;
+  border: 2px solid #000000;
+  color: #000;
+
 }
